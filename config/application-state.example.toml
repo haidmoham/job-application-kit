@@ -1,0 +1,9 @@
+[onboarding]
+complete = false
+resume_reviewed = false
+profile_verified = false
+search_lanes_verified = false
+
+[run]
+active_goal = 0
+mode = "standard"

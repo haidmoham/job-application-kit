@@ -1,0 +1,36 @@
+# Copy to profile.toml with scripts/bootstrap.py. This file contains no real candidate data.
+
+[identity]
+first_name = ""
+last_name = ""
+email = ""
+phone = ""
+website = ""
+linkedin = ""
+github = ""
+
+[work_authorization]
+country = "United States"
+authorized = false
+needs_sponsorship = false
+notes = ""
+
+[preferences]
+base_location = ""
+relocate = false
+remote_ok = true
+hybrid_ok = true
+onsite_ok = true
+level_floor = ""
+level_ceiling = ""
+
+[resume_readiness]
+assessment = ""
+confidence = ""
+confidence_reason = ""
+evidence_gaps = []
+search_impact = ""
+assessed_at = ""
+
+# Add verified experience, skills, projects, exclusions, and common ATS answers here.
+# Do not store passwords, one-time codes, security answers, or compensation submissions.

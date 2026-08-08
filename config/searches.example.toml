@@ -1,0 +1,25 @@
+[defaults]
+country = "United States"
+preferred_max_age_days = 7
+max_age_days = 30
+exclude_levels = []
+exclude_title_terms = []
+
+# Replace these examples during onboarding. A lane needs title or description evidence and a resume key.
+[[lanes]]
+name = "software_engineering"
+label = "Software engineering"
+priority = 1
+resume = "primary"
+query = '("software engineer" OR "backend engineer" OR "full stack engineer")'
+title_match_terms = ["software engineer", "backend engineer", "full stack engineer", "full-stack engineer"]
+match_terms = ["software", "backend", "api", "database", "distributed", "web application"]
+
+[[lanes]]
+name = "data_engineering"
+label = "Data engineering"
+priority = 2
+resume = "primary"
+query = '("data engineer" OR "data platform engineer" OR "analytics engineer")'
+title_match_terms = ["data engineer", "data platform engineer", "analytics engineer"]
+match_terms = ["data", "pipeline", "warehouse", "etl", "elt", "analytics", "platform"]

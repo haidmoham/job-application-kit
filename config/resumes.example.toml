@@ -1,0 +1,10 @@
+# Define one section per real resume route. Paths come from environment variables.
+
+[primary]
+label = "Primary resume"
+path_env = "JOB_RESUME_PRIMARY"
+
+# Example optional second route:
+# [data_platform]
+# label = "Data platform resume"
+# path_env = "JOB_RESUME_DATA_PLATFORM"

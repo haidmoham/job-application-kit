@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.DS_Store
+
+# Candidate-specific data. Keep outside Git by default.
+config/profile.toml
+config/resumes.toml
+config/searches.toml
+config/application-state.toml
+private/
+resumes/
+*.pdf
+*.docx
+
+# Local operational state.
+*.db
+*.sqlite
+*.sqlite3
+telemetry/*.jsonl
+telemetry/*.csv
+telemetry/*.md
+.env
+.env.*
