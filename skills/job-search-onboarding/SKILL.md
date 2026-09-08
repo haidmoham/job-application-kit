@@ -19,7 +19,7 @@ If the candidate has multiple current resumes, inspect each and record its inten
 
 ## Phase 2: evidence interview
 
-Quiz the candidate neutrally. Follow the strongest experiences rather than asking a fixed checklist. Probe for:
+Ask neutral questions to gather evidence. Follow the strongest experiences rather than asking a fixed checklist. Probe for:
 
 - actual ownership versus participation;
 - systems or artifacts built, migrated, operated, debugged, or designed;
