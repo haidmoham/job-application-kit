@@ -11,6 +11,22 @@ Reusable support infrastructure for an agent-assisted job search while candidate
 - a version-controlled application-run contract;
 - onboarding that collects candidate facts and checks whether the current resume supports the target search.
 
+## Evidence-first review
+
+Before a role-fit or resume-readiness assessment, read
+[the evidence-first review method](docs/evidence-first-review.md).
+Routing is not qualification. Keep paid, project, adjacent, and unknown evidence
+separate; review actual duties and responsibility level; do not manufacture lane
+or strong/stretch quotas. Place role-relevant evidence first. Preserve original
+resumes and require explicit authorization for any rewrite. Keep confidence and
+its reason in each readiness assessment.
+
+Use the existing local history for outcome measurement. Unanswered applications
+are unresolved, not rejections. Compare artifact versions, role families, fit,
+channels, and cohort ages before drawing conclusions. Application throughput is
+an execution measure, not evidence of career success. This review method does
+not launch a batch or create a second tracker.
+
 ## Privacy model
 
 Candidate-specific data is local and ignored by default:
@@ -48,6 +64,9 @@ Complete onboarding before running applications.
 4. local `config/searches.toml`
 5. local `config/resumes.toml`
 6. code and local state
+
+The review method supplements these controls; it does not override security,
+factual accuracy, explicit authorization, or privacy requirements.
 
 ## Development
 
